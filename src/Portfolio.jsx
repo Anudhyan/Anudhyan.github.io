@@ -59,16 +59,16 @@ export default function Portfolio() {
     <main className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 text-gray-900">
       {/* HEADER */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200 shadow-sm">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
             Anudhyan Datta
           </h1>
-          <nav className="flex items-center space-x-6 text-sm">
+          <nav className="flex flex-wrap items-center justify-center gap-3 sm:gap-6 text-sm">
             <a href="#work" className="hover:text-blue-600 transition-colors">Work</a>
             <a href="#oss" className="hover:text-blue-600 transition-colors">Open Source</a>
             <a href="#about" className="hover:text-blue-600 transition-colors">About</a>
             <a href="#contact" className="hover:text-blue-600 transition-colors">Contact</a>
-            <a href="/resume.pdf" className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-md" target="_blank">Resume</a>
+            <a href="/resume.pdf" className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-md" target="_blank" rel="noopener noreferrer">Resume</a>
           </nav>
         </div>
       </header>
